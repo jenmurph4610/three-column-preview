@@ -1,0 +1,143 @@
+
+/*BACKGROUNDS and FONT colors,sizes,styles (Independant of layout) */
+
+main {
+    background-color: white;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+#card-main {
+    display: flex;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+article {
+    padding: 48px;
+}
+
+img {
+    padding-bottom: 35px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+p {
+    opacity: 75%;
+    font-weight: 300;
+}
+
+.btn{
+    background-color: white;
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#section-one {
+    background-color: #E28625;
+}
+#section-one .btn a {
+    color: #E28625
+}
+#section-one .btn:hover {
+    background-color: #E28625;
+    border: 2px solid white;
+}
+#section-one .btn:hover a {
+    color: white;
+}
+
+#section-two {
+    background-color: #006971;
+}
+#section-two a {
+    color: #006971;
+}
+
+#section-two .btn:hover {
+    background-color: #006971;
+    border: 2px solid white;
+}
+#section-two .btn:hover a {
+    color: white;
+}
+
+
+#section-three {
+    background-color: #004140;
+}
+#section-three a {
+    color: #004140;
+}
+
+#section-three .btn:hover {
+    background-color: #004140;
+    border: 2px solid white;
+}
+#section-three .btn:hover a {
+    color: white;
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/******Layout DEPENDENT styles*******/
+
+/*Mobile Layout*/
+
+#card-main {
+    width: 327px;
+    flex-direction: column;
+}
+
+
+
+p {
+    padding-bottom: 25px;
+}
+
+/*Desktop Layout*/
+@media only screen and (min-width: 1000px)  {
+    
+    #card-main {
+        width: 920px;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    p {
+        padding-bottom: 83px;
+    }
+
+}
