@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-This was just to be a simple project meant to get me back into the swing of things after a break because of illness.  I thought it would take me longer to get my brain back into it, but this ended up coming together fairly quickly and eaily.  The practice from each previous challenge shows with every new challenge I do, the layout and designs are feeling easier and requiring less googling to complete. Feeling more confident each project when it comes to HTML and CSS.  
+This was just to be a simple project meant to get me back into the swing of things after a break because of illness.  I thought it would take me longer to get my brain back into it, but this ended up coming together fairly quickly and easily.  The practice from each previous challenge shows with every new challenge I do, the layout and designs are feeling easier and requiring less googling to complete. Feeling more confident each project when it comes to HTML and CSS.  
 
 The only part that gave me issue was with the hover state on the Learn More buttons. Changing the background color was simple, but changing the text color of the anchor tags on hover stumped me for a few minutes.  
 
